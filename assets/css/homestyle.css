@@ -133,7 +133,7 @@ li {
     font-size: 3.5rem;
     line-height: 1;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 160px;
 }
 .guides h2::before {
     position: absolute;
@@ -147,7 +147,7 @@ li {
     left:50%;
     transform: translateX(-50%);
 }
-.guides p {
+.guides .desc {
     margin-top: 20px;
     width: 459px;
     height: 60px;
@@ -158,4 +158,88 @@ li {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+}
+.guides .colum{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+.guides .colum3{
+    margin-top: 70px;
+    justify-items: center;
+}
+.guides .colum3 p{
+    color: #3B3C45;
+    font-family: Poppins;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 2.2; /* 110% */
+}
+.guides .colum3 .quest p {
+    color: #0689FF;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.guides .colum3 .quest {
+    display: flex;
+    margin-top:10px;
+    gap:8px;
+}
+.guides .btn-see-full {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.guides .btn-see-full a {
+    min-width: 170px;
+}
+/*FEATURED*/
+.featured {
+    background-color: #F5FAFE;
+    width: 100vw;
+    height: 727px;
+    margin-top: 120px;
+}
+.featured h2 {
+    color: #000339;
+    font-size: 3.5rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+    padding-top: 110px;
+}
+.featured .desc {
+    margin-top: 15px;
+    display: flex;
+}
+.featured .desc .quest {
+    display: flex;
+    margin-left: auto;
+}
+.featured .desc .sub-title{
+    color: #5A6473;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.8; /* 187.5% */
+}
+.featured .desc .quest p{
+    color: #0689FF;
+    text-align: right;
+    font-family: Poppins;
+    font-size: 1.8rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-right: 8px;
+}
+.featured .desc .quest img {
+width: 8px;
+height: 24px;
+flex-shrink: 0;
 }
