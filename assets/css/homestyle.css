@@ -228,7 +228,7 @@ li {
     font-weight: 400;
     line-height: 1.8; /* 187.5% */
 }
-.featured .desc .quest p{
+.featured .desc .quest {
     color: #0689FF;
     text-align: right;
     font-family: Poppins;
@@ -237,9 +237,75 @@ li {
     font-weight: 600;
     line-height: normal;
     margin-right: 8px;
+    align-items: center;
 }
 .featured .desc .quest img {
-width: 8px;
-height: 24px;
+width: 24px;
+height: 17px;
 flex-shrink: 0;
+margin-left: 8px;
+}
+         /*FEATURED ITEMS*/
+.featured .list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+
+}
+.featured .list .img-main {
+    width: 350px;
+    height: 227px;
+    object-fit: cover;
+    flex-shrink: 0;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.featured .list .items {
+    background-color: #fff;
+    width: 350px;
+    height: 357px;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+.featured .list .items .container {
+    margin-left: 20px;
+}
+.featured .list .items h3{
+    color: #000339;
+    margin-top: 17px;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1; /* 100% */
+    margin-bottom: 11px;
+}
+.featured .list .items p{
+    color: #A3A6AB;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-bottom: 21px;
+}
+.featured .list .items .label{
+    color: #4D4D52;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1; /* 100% */
+    letter-spacing: 0.14px;
+}
+.featured .list .items .infor{
+    display: flex;
+    align-items: center;
+}
+.featured .list .items .infor .icon {
+    margin-left: 22px;
+    margin-right: 8px;
+}
+.featured .list .items .infor .icon:first-of-type {
+    margin-left: 0px;
 }
